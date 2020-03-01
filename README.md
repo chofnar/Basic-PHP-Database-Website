@@ -8,4 +8,5 @@ the server in the .php files
 $mysqli = new mysqli('localhost','apache24','1234','spital');
 ```
 where 'localhost' is the address to your server, 'apache24' is the username used to access the database, and 
-'1234' being the passwod. 'spital' is the name of the schema, leave it unchanged.
+'1234' being the passwod. 'spital' is the name of the schema, leave it unchanged. You will then need to place the .php
+files in the /htdocs folder of your HTTP server.
